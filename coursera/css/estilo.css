@@ -16,7 +16,7 @@ section h3 {
     text-align: right;
     border-bottom-style: solid;
     border-left-style: solid;
-    border-width: thin;
+    border-width: 1px;
     width: auto;
     float: right;
     padding: 5px;
@@ -55,17 +55,17 @@ section {
     }
     #s1 {
         border-style: solid;
-        border-width: thin;
+        border-width: 1px;
         margin-right: 20px
     }
     #s2 {
         border-style: solid;
-        border-width: thin;
+        border-width: 1px;
         margin-right: 20px
     }
     #s3 {
         border-style: solid;
-        border-width: thin;
+        border-width: 1px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -74,17 +74,17 @@ section {
     }
     #s1 {
         border-style: solid;
-        border-width: thin;
+        border-width: 1px;
         margin-right: 20px;
         float: left;
     }
     #s2 {
         border-style: solid;
-        border-width: thin;
+        border-width: 1px;
     }
     #s3 {
         border-style: solid;
-        border-width: thin;
+        border-width: 1px;
         width: 100%;
         margin-top: 20px;
         clear: all;
@@ -96,16 +96,16 @@ section {
     }
     #s1 {
         border-style: solid;
-        border-width: thin;
+        border-width: 1px;
         margin-bottom: 20px;
     }
     #s2 {
         border-style: solid;
-        border-width: thin;
+        border-width: 1px;
         margin-bottom: 20px;
     }
     #s3 {
         border-style: solid;
-        border-width: thin;
+        border-width: 1px;
     }
 }
