@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Contrail+One');
+body {
+    font-family: 'Oswald', sans-serif;
+}
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+section h3 {
+    text-align: right;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-width: thin;
+    width: auto;
+    float: right;
+    padding: 5px;
+    margin-top: 0px;
+}
+section p {
+    clear: right;
+    padding: 10px;
+    font-family: 'Contrail One', cursive;
+    font-weight: normal;
+}
+#s1 h3 {
+    background-color: #d18c90;
+}
+#s2 h3 {
+    background-color: #bc343e;
+}
+#s3 h3 {
+    background-color: #e1cb92;
+}
+#box {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section {
+    background-color: #FFF8E0;
+}
+@media (min-width: 992px) {
+    section {
+        width: 31%;
+        float: left;
+    }
+    #s1 {
+        border-style: solid;
+        border-width: thin;
+        margin-right: 20px
+    }
+    #s2 {
+        border-style: solid;
+        border-width: thin;
+        margin-right: 20px
+    }
+    #s3 {
+        border-style: solid;
+        border-width: thin;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        width: 48.3%;
+    }
+    #s1 {
+        border-style: solid;
+        border-width: thin;
+        margin-right: 20px;
+        float: left;
+    }
+    #s2 {
+        border-style: solid;
+        border-width: thin;
+    }
+    #s3 {
+        border-style: solid;
+        border-width: thin;
+        width: 100%;
+        margin-top: 20px;
+        clear: all;
+    }
+}
+@media (max-width: 767px) {
+    section {
+        width: 100%;
+    }
+    #s1 {
+        border-style: solid;
+        border-width: thin;
+        margin-bottom: 20px;
+    }
+    #s2 {
+        border-style: solid;
+        border-width: thin;
+        margin-bottom: 20px;
+    }
+    #s3 {
+        border-style: solid;
+        border-width: thin;
+    }
+}
